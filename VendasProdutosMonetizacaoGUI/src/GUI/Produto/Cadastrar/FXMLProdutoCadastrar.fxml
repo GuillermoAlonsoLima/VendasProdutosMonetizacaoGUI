@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" fx:id="anchorPane" prefHeight="188.0" prefWidth="478.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="GUI.Produto.Cadastrar.FXMLProdutoCadastrarController">
+   <children>
+      <Label layoutX="156.0" layoutY="14.0" text="Cadastrar Produto">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Label>
+      <Label layoutX="55.0" layoutY="73.0" text="Nome:">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Label>
+      <Label layoutX="55.0" layoutY="97.0" text="Preço:">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Label>
+      <TextField fx:id="tfNome" layoutX="106.0" layoutY="74.0" prefHeight="25.0" prefWidth="287.0" />
+      <TextField fx:id="tfPreco" layoutX="106.0" layoutY="98.0" prefHeight="25.0" prefWidth="287.0" />
+      <Button layoutX="333.0" layoutY="136.0" mnemonicParsing="false" onAction="#cadastrar" text="Cadastrar" />
+   </children>
+</AnchorPane>

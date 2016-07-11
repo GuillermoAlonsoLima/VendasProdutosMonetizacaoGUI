@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" fx:id="anchorPane" prefHeight="320.0" prefWidth="301.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="GUI.Menu.MenuMonetizacao.FXMLMenuMonetizacaoController">
+   <children>
+      <Label layoutX="57.0" layoutY="14.0" text="Menu Monetizacao">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Label>
+      <Button layoutX="97.0" layoutY="79.0" mnemonicParsing="false" onAction="#abrirCompra" prefHeight="38.0" prefWidth="107.0" text="Comprar">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Button>
+      <Button layoutX="97.0" layoutY="124.0" mnemonicParsing="false" onAction="#abrirDepositar" prefHeight="38.0" prefWidth="107.0" text="Depositar">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Button>
+      <Button layoutX="97.0" layoutY="170.0" mnemonicParsing="false" onAction="#abrirRetirar" prefHeight="38.0" prefWidth="107.0" text="Retirar">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Button>
+      <Button layoutX="97.0" layoutY="215.0" mnemonicParsing="false" onAction="#abrirTransferir" prefHeight="38.0" prefWidth="107.0" text="Transferir">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
